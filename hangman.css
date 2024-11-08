@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: #ffdd93;
+    font-family: Arial, sans-serif;
+  }
+  
+  .win {
+    color: #ffffff;
+    background-color: #28a745;
+  }
+  
+  .loss {
+    color: #ffffff;
+    background-color: #dc3545;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: #ffdd93;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: #ffdd93;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .guess {
+    padding: 12px;
+    display: inline-block;
+    border: 2px solid #ffdd93;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .guess:hover {
+    background-color: #ffdd93;
+    color: #0072ff;
+    border-color: #0072ff;
+  }
+  
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    #guesses {
+      font-size: 24pt;
+    }
+  
+    .guess {
+      padding: 30px;
+      margin: 10px;
+    }
+  }
+  
+  #guessBox {
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 18pt;
+    width: 220px;
+    padding-left: 10px;
+    border: 2px solid #ffdd93;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #333;
+    background-color: #ffdd93;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #ffe083;
+  }
+  
+  .button:active {
+    background-color: #e0b764;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(3px);
+  }
+  
